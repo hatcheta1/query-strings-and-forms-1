@@ -1,0 +1,21 @@
+
+<!-- labels must have a `for` attribute that matches the input's `id` attribute -->
+<form action="/process_url">
+  <label for="fruit_id">Fruit</label>
+  <input id="fruit_id" name="fruit"> <!-- inputs must have unique names -->
+  <label for="color_id">Color</label>
+  <input id="color_id" name="color">
+  <button>Submit</button>
+</form>
+
+<!-- you can set the initial content of the field with the `value` attribute -->
+<form action="/process_form">
+  <input name="email" value="alice@example.com">
+  <button>Submit</button>
+</form>
+
+<!-- you can give a hint with the `placeholder` attribute -->
+<form action="/process_form">
+  <input name="email" placeholder="Enter your email...">
+  <button>Submit</button>
+</form>
